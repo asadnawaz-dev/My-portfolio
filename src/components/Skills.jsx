@@ -22,6 +22,7 @@ import {
   SiElementor,
   SiSemrush,
   SiApachenetbeanside,
+  SiPhp, // ✅ PHP icon imported
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -36,6 +37,7 @@ export default function Skills() {
     { icon: <SiNextdotjs />, name: "Next.js", color: "bg-black" },
     { icon: <FaNodeJs />, name: "Node.js", color: "bg-green-600" },
     { icon: <SiExpress />, name: "Express.js", color: "bg-gray-800" },
+    { icon: <SiPhp />, name: "PHP", color: "bg-indigo-700" }, 
     { icon: <SiMongodb />, name: "MongoDB", color: "bg-green-500" },
     { icon: <SiMysql />, name: "MySQL", color: "bg-blue-600" },
     { icon: <SiApachenetbeanside />, name: "API", color: "bg-gray-700" },
