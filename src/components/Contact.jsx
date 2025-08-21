@@ -47,7 +47,7 @@ export default function Contact() {
                 type="text"
                 name="name"
                 required
-                placeholder="John Doe"
+                placeholder="abc"
                 className="w-full p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
               />
             </div>

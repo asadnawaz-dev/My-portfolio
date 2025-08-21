@@ -43,7 +43,7 @@ export default function Services() {
       className="py-20 px-4 bg-gradient-to-r from-[#f3f4f6] to-[#e0f2fe]"
     >
       <div className="max-w-6xl mx-auto text-center">
-        {/* Heading */}
+       
         <motion.h2
           className="text-4xl font-bold mb-2 text-gray-800"
           initial={{ opacity: 0, y: -40 }}
@@ -54,7 +54,6 @@ export default function Services() {
           My Services
         </motion.h2>
 
-        {/* Tagline below heading */}
         <motion.p
           className="text-gray-600 text-base mb-12"
           initial={{ opacity: 0, y: -20 }}
@@ -65,7 +64,6 @@ export default function Services() {
           Modern, scalable web solutions built for growth.
         </motion.p>
 
-        {/* Services Grid */}
         <div className="grid gap-8 md:grid-cols-2">
           {services.map((service, index) => (
             <motion.div

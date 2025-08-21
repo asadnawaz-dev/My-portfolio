@@ -19,7 +19,7 @@ export default function RecentProjects() {
   const visible = showAll ? projects : projects.slice(0, 4);
 
   return (
-    <section id="recent-projects" className="py-20 bg-[#f8f9fa] px-4">
+    <section id="projects" className="py-20 bg-[#f8f9fa] px-4">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
           className="text-3xl sm:text-4xl font-bold mb-10 text-gray-800"

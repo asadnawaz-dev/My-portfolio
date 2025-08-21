@@ -22,7 +22,7 @@ import {
   SiElementor,
   SiSemrush,
   SiApachenetbeanside,
-  SiPhp, // ✅ PHP icon imported
+  SiPhp, 
 } from "react-icons/si";
 import { motion } from "framer-motion";
 

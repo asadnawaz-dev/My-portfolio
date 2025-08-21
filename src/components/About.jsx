@@ -1,5 +1,4 @@
 // src/components/About.jsx
-// src/components/About.jsx
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -18,7 +17,7 @@ export default function About() {
           About Me
         </motion.h2>
 
-        {/* Tight spacing & smooth scroll-in */}
+        {/* Text Content */}
         <div className="text-[1.05rem] leading-[1.6rem] text-justify space-y-3">
           <motion.p
             initial={{ opacity: 0, y: 15 }}
@@ -26,7 +25,8 @@ export default function About() {
             transition={{ duration: 0.4 }}
             viewport={{ once: true }}
           >
-            Hi, I'm <strong>Asad Nawaz</strong> — a dedicated full-stack web developer focused on building clean, fast, and reliable websites that help businesses grow and stand out online.
+            I am a full-stack web developer who builds fast, clean, and professional websites. 
+            My focus is on creating solutions that not only look great but also help businesses grow and perform better online.
           </motion.p>
 
           <motion.p
@@ -35,7 +35,8 @@ export default function About() {
             transition={{ duration: 0.4, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            I work independently but with the mindset and process of a full agency. From the first conversation to the final launch, I ensure clear communication, attention to detail, and solutions tailored to your goals.
+            From the first idea to the final launch, I manage every step with clear communication and attention to detail. 
+            Whether it is a custom website, an e-commerce platform, or improving an existing site, my goal is always to deliver work that adds real value.
           </motion.p>
 
           <motion.p
@@ -44,16 +45,7 @@ export default function About() {
             transition={{ duration: 0.4, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Every project I take on is guided by a simple philosophy: <em>deliver value, not just code</em>. Whether you need a custom website, business platform, or a performance revamp — I’m here to help you achieve lasting impact through technology.
-          </motion.p>
-
-          <motion.p
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.3 }}
-            viewport={{ once: true }}
-          >
-            Your success is my priority — and I’m here to support you every step of the way.
+            I believe in long-term results, not quick fixes — and I am committed to making sure every project truly supports your goals.
           </motion.p>
         </div>
       </div>

@@ -14,7 +14,6 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         
-        {/* Logo */}
         <a href="#home" className="flex items-center space-x-2">
           <img
             src="/project-img/logo3.png"
@@ -23,7 +22,6 @@ export default function Header() {
           />
         </a>
 
-        {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6 font-medium text-gray-700">
           {["about", "skills", "services", "projects", "contact"].map((section) => (
             <a
@@ -36,7 +34,7 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Mobile Menu Button */}
+       
         <button onClick={toggleMenu} className="md:hidden focus:outline-none">
           <svg
             className="w-6 h-6 text-gray-700"
@@ -54,7 +52,7 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+   
       {menuOpen && (
         <motion.div
           initial={{ opacity: 0, y: -10 }}
