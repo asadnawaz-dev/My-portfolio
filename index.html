@@ -35,6 +35,53 @@
     <!-- Sitemap -->
     <link rel="sitemap" type="application/xml" title="Sitemap" href="https://asadnawazdev.com/sitemap.xml" />
 
+    <!-- Structured Data (Person + Services JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Asad Nawaz",
+      "url": "https://asadnawazdev.com/",
+      "image": "https://asadnawazdev.com/project-img/portfolio-preview.jpg",
+      "jobTitle": "Full Stack Developer & WordPress Expert",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/asadnawaz",
+        "https://github.com/asadnawaz",
+        "https://twitter.com/asadnawaz"
+      ],
+      "description": "Professional Full Stack Developer and WordPress Expert creating responsive websites and web apps using React, Tailwind CSS, and MERN Stack.",
+      "makesOffer": [
+        {
+          "@type": "Service",
+          "name": "Full Stack Development",
+          "description": "I design and develop complete web applications using the MERN stack.",
+          "serviceType": "Web Development"
+        },
+        {
+          "@type": "Service",
+          "name": "WordPress Development",
+          "description": "Custom WordPress websites, blogs, and WooCommerce stores with SEO-friendly designs.",
+          "serviceType": "WordPress Development"
+        },
+        {
+          "@type": "Service",
+          "name": "SEO Optimization",
+          "description": "Result-driven SEO services to boost your website rankings.",
+          "serviceType": "SEO Services"
+        },
+        {
+          "@type": "Service",
+          "name": "UI/UX Design",
+          "description": "Intuitive, conversion-focused designs using Figma and modern UI principles.",
+          "serviceType": "UI/UX Design"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

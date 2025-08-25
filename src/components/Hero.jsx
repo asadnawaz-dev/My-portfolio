@@ -4,18 +4,14 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-r from-[#fef9f5] to-[#fdf3e7] px-4 pt-[80px] pb-16 sm:py-20 md:py-28">
       <div className="max-w-5xl text-center space-y-6 sm:space-y-8">
-        
-      
+
+
         <motion.h1
           className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight drop-shadow-sm"
-          initial={{ opacity: 0, y: -40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
         >
-          Empowering Brands Through High-Performance Web Solutions
+          Full Stack Developer & WordPress Expert – Creating High-Performance Web Solutions
         </motion.h1>
 
-      
         <motion.p
           className="text-base sm:text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
@@ -25,7 +21,7 @@ export default function Hero() {
           I craft blazing-fast, SEO-optimized websites using WordPress and the MERN stack — engineered to elevate user experience, enhance brand presence, and accelerate business growth.
         </motion.p>
 
-       
+
         <motion.div
           className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 pt-4 sm:pt-6"
           initial={{ opacity: 0 }}

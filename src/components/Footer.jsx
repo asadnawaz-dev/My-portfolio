@@ -9,9 +9,6 @@ export default function Footer() {
         </div>
 
        
-        <div className="text-sm sm:text-base">
-          Built with ❤️ React & Tailwind
-        </div>
       </div>
     </footer>
   );
