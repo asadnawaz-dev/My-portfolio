@@ -35,7 +35,7 @@ export default function Hero() {
             Contact Me
           </a>
           <a
-            href="#recent-projects"
+            href="#projects"
             className="w-60 sm:w-auto px-8 py-3 border border-blue-600 text-blue-600 text-base font-semibold rounded-full hover:bg-blue-600 hover:text-white transition duration-300 text-center"
           >
             View My Work
