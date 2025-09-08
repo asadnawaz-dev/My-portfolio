@@ -12,25 +12,25 @@ const services = [
     icon: <FaCode />,
     title: "Full Stack Development",
     detail:
-      "I design and develop complete web applications using the MERN stack — MongoDB, Express.js, React.js, and Node.js. From responsive front-end interfaces to secure and high-performance backend systems, I deliver scalable, end-to-end solutions tailored for business growth and user engagement.",
+      "I create complete web applications using the MERN stack (MongoDB, Express, React, Node). From clean and responsive front-end to secure back-end systems, I build websites that run fast and handle real business needs smoothly.",
   },
   {
     icon: <FaWordpress />,
     title: "WordPress Development",
     detail:
-      "I build custom WordPress websites that are fast, responsive, and easy to manage using Elementor, Astra, or fully custom themes. Whether it’s a business site, blog, or WooCommerce store, I ensure clean design, smooth user experience, SEO readiness, and full compatibility across devices.",
+      "I make WordPress websites that are easy to use, fast, and mobile-friendly. Whether it’s a business site, blog, or online store, I focus on a clean design, good speed, and SEO-friendly setup.",
   },
   {
     icon: <FaSearch />,
     title: "SEO Optimization",
     detail:
-      "Get your website ranked higher with result-driven SEO services. I perform deep keyword research, fix technical issues, optimize content, and improve page speed to enhance search engine performance and user engagement — using proven tools and strategies.",
+      "I help websites rank better on search engines by finding the right keywords, fixing technical issues, and improving content and speed. This helps your site get more visitors and better visibility.",
   },
   {
     icon: <FaPencilRuler />,
     title: "UI/UX Design",
     detail:
-      "I design clean, intuitive, and user-focused interfaces using Figma from wireframes to high-fidelity prototypes. My approach combines aesthetic design with usability to ensure a seamless experience across devices. Whether it’s a landing page, dashboard, or complete web app, I focus on clarity, consistency, and conversion-driven design",
+      "I design simple and user-friendly layouts using Figma. From wireframes to final design, my goal is to make your website clear, easy to use, and visually appealing.",
   },
 ];
 

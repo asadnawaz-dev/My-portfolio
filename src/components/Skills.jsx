@@ -21,13 +21,13 @@ import {
   SiGooglesearchconsole,
   SiElementor,
   SiSemrush,
-  SiApachenetbeanside,
   SiPhp, 
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
 export default function Skills() {
   const skills = [
+    // Frontend Core
     { icon: <FaHtml5 />, name: "HTML5", color: "bg-orange-400" },
     { icon: <FaCss3Alt />, name: "CSS3", color: "bg-blue-500" },
     { icon: <SiTailwindcss />, name: "Tailwind", color: "bg-teal-400" },
@@ -35,20 +35,27 @@ export default function Skills() {
     { icon: <FaReact />, name: "React.js", color: "bg-cyan-400" },
     { icon: <SiRedux />, name: "Redux", color: "bg-purple-600" },
     { icon: <SiNextdotjs />, name: "Next.js", color: "bg-black" },
+
+    // Backend
     { icon: <FaNodeJs />, name: "Node.js", color: "bg-green-600" },
     { icon: <SiExpress />, name: "Express.js", color: "bg-gray-800" },
     { icon: <SiPhp />, name: "PHP", color: "bg-indigo-700" }, 
     { icon: <SiMongodb />, name: "MongoDB", color: "bg-green-500" },
     { icon: <SiMysql />, name: "MySQL", color: "bg-blue-600" },
-    { icon: <SiApachenetbeanside />, name: "API", color: "bg-gray-700" },
-    { icon: <FaGitAlt />, name: "Git", color: "bg-red-500" },
-    { icon: <SiGithub />, name: "GitHub", color: "bg-black" },
+
+    // CMS & E-commerce
     { icon: <FaWordpress />, name: "WordPress", color: "bg-blue-700" },
     { icon: <SiElementor />, name: "Elementor", color: "bg-pink-500" },
     { icon: <SiWoocommerce />, name: "WooCommerce", color: "bg-indigo-600" },
+
+    // SEO & Analytics
     { icon: <SiSemrush />, name: "SEO Tools", color: "bg-orange-500" },
     { icon: <SiGoogleanalytics />, name: "Analytics", color: "bg-yellow-500" },
     { icon: <SiGooglesearchconsole />, name: "Search Console", color: "bg-red-600" },
+
+    // Tools & Collaboration
+    { icon: <FaGitAlt />, name: "Git", color: "bg-red-500" },
+    { icon: <SiGithub />, name: "GitHub", color: "bg-black" },
     { icon: <SiFigma />, name: "Figma", color: "bg-purple-500" },
   ];
 
@@ -62,7 +69,7 @@ export default function Skills() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Technologies I Use to Build Web Experiences
+          Skills & Tools I Work With
         </motion.h2>
 
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
@@ -79,7 +86,7 @@ export default function Skills() {
               }}
             >
               <div className="text-xl sm:text-2xl md:text-3xl">{skill.icon}</div>
-              <span className="text-[10px] sm:text-[10px] mt-1 text-white text-center">
+              <span className="text-[11px] sm:text-[12px] mt-1 text-white text-center">
                 {skill.name}
               </span>
             </motion.div>

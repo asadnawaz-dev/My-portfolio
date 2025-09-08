@@ -1,4 +1,3 @@
-// src/components/About.jsx
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -6,7 +5,6 @@ export default function About() {
     <section id="about" className="py-20 px-6 bg-[#fffaf0] text-gray-800">
       <div className="max-w-3xl mx-auto text-center">
 
-        {/* Heading with animation */}
         <motion.h2
           className="text-4xl font-bold mb-4"
           initial={{ opacity: 0, y: -30 }}
@@ -17,16 +15,15 @@ export default function About() {
           About Me
         </motion.h2>
 
-        {/* Text Content */}
-        <div className="text-[1.05rem] leading-[1.6rem] text-justify space-y-3">
+        <div className="text-[1.05rem] leading-[1.7rem] text-justify space-y-4">
           <motion.p
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
             viewport={{ once: true }}
           >
-            I am a full-stack web developer who builds fast, clean, and professional websites. 
-            My focus is on creating solutions that not only look great but also help businesses grow and perform better online.
+            <strong>I am a Full Stack Developer</strong> who builds clean, responsive, and user-friendly websites using
+            <strong> WordPress and the MERN stack</strong>.
           </motion.p>
 
           <motion.p
@@ -35,8 +32,8 @@ export default function About() {
             transition={{ duration: 0.4, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            From the first idea to the final launch, I manage every step with clear communication and attention to detail. 
-            Whether it is a custom website, an e-commerce platform, or improving an existing site, my goal is always to deliver work that adds real value.
+            I develop business websites, e-commerce stores, and custom web applications that are fast, SEO-friendly,
+            and designed to deliver a great user experience.
           </motion.p>
 
           <motion.p
@@ -45,7 +42,17 @@ export default function About() {
             transition={{ duration: 0.4, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            I believe in long-term results, not quick fixes — and I am committed to making sure every project truly supports your goals.
+            My goal is to create reliable digital solutions that help businesses grow and connect with their customers.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.3 }}
+            viewport={{ once: true }}
+            className="font-semibold text-blue-600 mt-4"
+          >
+            Have an idea to take online? Let’s make it real.
           </motion.p>
         </div>
       </div>

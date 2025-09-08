@@ -2,16 +2,14 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const projects = [
-  { title: "E-commerce Store", image: "/project-img/p1.png", link: "https://alramizequip.com/" },
-  { title: "Recipe Sharing Platform", image: "/project-img/p2.png", link: "https://recipefund.com/" },
-  { title: "Lodge Booking Site", image: "/project-img/p3.png", link: "https://www.chaletcadieux.com/" },
-  { title: "Food Ordering Website", image: "/project-img/p4.png", link: "https://foodil.co/" },
-  { title: "Boxing Equipment E-commerce Store", image: "/project-img/p5.png", link: "https://tufwear-germany.de/" },
-  { title: "Real Estate Website", image: "/project-img/p6.png", link: "https://makaansolutions.com/" },
-  { title: "Camping & Reservation Website", image: "/project-img/p7.png", link: "https://campingcharles.com/" },
-  { title: "E-commerce Website", image: "/project-img/p8.png", link: "https://neers.com.pk/public" },
-  // { title: "Restaurant Site", image: "/projects/portfolio.png", link: "#" },
-  // { title: "Blog Platform", image: "/projects/portfolio.png", link: "#" },
+  { image: "/project-img/p1.png", link: "https://alramizequip.com/" },
+  { image: "/project-img/p2.png", link: "https://recipefund.com/" },
+  { image: "/project-img/p3.png", link: "https://www.chaletcadieux.com/" },
+  { image: "/project-img/p4.png", link: "https://foodil.co/" },
+  { image: "/project-img/p5.png", link: "https://tufwear-germany.de/" },
+  { image: "/project-img/p6.png", link: "https://makaansolutions.com/" },
+  { image: "/project-img/p7.png", link: "https://campingcharles.com/" },
+  { image: "/project-img/p8.png", link: "https://neers.com.pk/public" },
 ];
 
 export default function RecentProjects() {
@@ -28,7 +26,7 @@ export default function RecentProjects() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-         Web Projects That Deliver Results
+          Web Projects That Deliver Results
         </motion.h2>
 
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
@@ -48,14 +46,9 @@ export default function RecentProjects() {
               <div className="relative overflow-hidden">
                 <img
                   src={p.image}
-                  alt={p.title}
+                  alt={`Project ${i + 1}`}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-              </div>
-              <div className="p-4 bg-white">
-                <h3 className="text-base sm:text-lg font-semibold text-gray-800">
-                  {p.title}
-                </h3>
               </div>
             </motion.a>
           ))}
