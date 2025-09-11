@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 const projects = [
   { image: "/project-img/p1.png", link: "https://alramizequip.com/" },
-  { image: "/project-img/p2.png", link: "https://recipefund.com/" },
+  // { image: "/project-img/p2.png", link: "https://recipefund.com/" },
   { image: "/project-img/p3.png", link: "https://www.chaletcadieux.com/" },
-  { image: "/project-img/p4.png", link: "https://foodil.co/" },
+  // { image: "/project-img/p4.png", link: "https://foodil.co/" },
   { image: "/project-img/p5.png", link: "https://tufwear-germany.de/" },
   { image: "/project-img/p6.png", link: "https://makaansolutions.com/" },
   { image: "/project-img/p7.png", link: "https://campingcharles.com/" },
-  { image: "/project-img/p8.png", link: "https://neers.com.pk/public" },
+  // { image: "/project-img/p8.png", link: "https://neers.com.pk/public" },
 ];
 
 export default function RecentProjects() {
